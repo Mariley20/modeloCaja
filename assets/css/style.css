@@ -11,7 +11,7 @@ font-family: 'Raleway', sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Raleway';
+	font-family: 'Raleway',sans-serif;
 	color: white;
 }
 
@@ -25,13 +25,11 @@ section {
 .header_text {
 	font-family:  'Raleway', sans-serif;
 	font-size: 30px;
-	margin-left: auto; 
-	margin-top: auto;
-	/*padding :20px 10px 0px 0px;	*/
+	padding :30px 10px 1px 0px;
 }
 .header_text_menor, .text_footer{
 	font-size: 16px;
-	/*padding: 0px 10px 20px 0px;*/
+	padding: 1px 10px 30px 0px;
 }
 .img_header, .img_family, .img_fotter {
 	position: static;
@@ -55,12 +53,15 @@ section {
 	padding: 30px;
 	text-align: center;
 }
-.about_title{
+.about_title, .img_pictures{
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	text-align: center;
 	padding-bottom: 20px;
-
+}
+.images{
+	border: 20px solid white; 
+	margin: 20px 20px 20px 20px;
 }
 
 
