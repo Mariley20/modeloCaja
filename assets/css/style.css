@@ -6,3 +6,61 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+/*Seteo*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+	color: white;
+}
+
+/* encabeczado */
+section {
+	background-color: #F78E69;
+}
+.header_text, .header_text_menor, .text_footer{
+	text-align: right;
+}
+.header_text {
+	font-family:  'Raleway', sans-serif;
+	font-size: 30px;
+	margin-left: auto; 
+	margin-top: auto;
+	/*padding :20px 10px 0px 0px;	*/
+}
+.header_text_menor, .text_footer{
+	font-size: 16px;
+	/*padding: 0px 10px 20px 0px;*/
+}
+.img_header, .img_family, .img_fotter {
+	position: static;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	
+}
+/* about */
+.img_header, .img_family, .img_fotter, .about{
+	border-top: 20px solid #F78E69;
+	border-bottom: 20px solid #F78E69;
+}
+.about {
+	background: #ABE188;
+}
+.text_about {
+	background-color: #F78E69;
+	margin: 40px 200px;
+	padding: 30px;
+	text-align: center;
+}
+.about_title{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+
